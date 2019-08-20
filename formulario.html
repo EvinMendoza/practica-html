@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<title>Formulario</title>
+</head>
+
+<body>
+    <form action ="formulario.html" method="POST">
+    <label for "meta">Meta</label>
+    <input type="text" nam="meta" id="meta"><br>
+    <label for "descripcion">Descripcion</label>
+    <textarea id="descripcion" placeholder = "Escribe la descripcion" rows="5" cols="20"></textarea>
+    <br>
+    <label for "plazo">Plazo</label>
+    <select name="plazo">
+        <option value="1">Uno</option>
+        <option value="3">Tres</option>
+        <option value="5">Cinco</option>
+        <option value="10">Diez</option>
+    </select>
+    <br>
+    <label for="indispensable">Es indispensable</label>
+    <input type="radio" name="indispensabel" value="si">Si
+    <input type="radio" name="indispensabel" value="no">No
+    <br>
+    <br>
+    <label for="realizarlo">Puedo realizarlo</label>
+    <br>
+    <label for="antes">Antes de la carrera</label>
+    <input type="checkbox" name="antes" id="antes" value="antes">
+    <br>
+    <label for="durante">Durante de la carrera</label>
+    <input type="checkbox" name="durante" id="durante"value="durante">
+    <br>
+    <label for="despues">Despues de la carrera</label>
+    <input type="checkbox" name="despues" id="despues"value="despues">
+    <br>
+    <input type="hidden" id="codigo" value="1234"> <!--Hidden solo es para ocultar informacion al ususario-->
+    <label for="despues">Password</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <!--Esto es solo extra-->
+    <label for="fecha">Fecha: </label>
+    <input type="date" name="fecha">
+    <br>
+    <label for="edad">Edad: </label>
+    <input type="number" name="edad">
+    <br>
+    <br>
+    <!--Opcion uno para el enviar-->
+    <input type="submit" value="Crear meta">
+    <br>
+    <!--Opcion 2 para el enviar-->
+    <button type="submit" value="Crear meta">Crear meta</button>
+
+    <br>
+
+
+
+
+</body>
+
+</html>
